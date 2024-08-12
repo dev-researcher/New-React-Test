@@ -1,0 +1,40 @@
+.home__page {
+    padding: 2rem;
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .home__page__controls{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        margin-bottom: 30px;
+
+        .home__page__controls--create{
+
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+
+            svg{
+                margin-left: 15px;
+                width: 28px;
+                height: 28px;
+
+            }
+        }
+
+        .home__page__controls--all{
+            cursor: pointer;
+            display: block;
+            align-self: center;
+
+            span{
+                margin-right: 20px;
+            }
+        }
+    }
+  }
+  
